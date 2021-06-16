@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat.jpj.webp" alt="">
+        <h1>whatsApp chat Room</h1>
+    </nav>
+    <div class="outer">
+        <div class="inner">
+
+            <div id="pho">
+                <img src="" id="image">
+                <label for="file" id="uploadbtn">
+                    <li class="material-icons icon-photo" style="font-size: 51px;">add_a_photo</li>
+                </label>
+                <input type="file" id="file" />
+            </div>
+            <div class="name">
+                <h4 class="head">Hacky singh rajput</h4>
+            </div>
+
+            <div class="on">
+                <h4 class="naam"><b>online</b></h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <!-- <div class="date-container">
+        <div class="date">current date </div> -->
+    </div>
+    <!-- <div class="left message ">how are you kese ho gya bachha sachha man ka <div class="time">time chal raha hai</div>  </div>
+         
+        <div class="right message">i am fine what about you  <div class="time">time chal raha hai</div> </div>-->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <script src="js/photo.js"></script>
+</body>
+
+</html>
